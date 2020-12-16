@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2? family = Bungee & display = swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    outline: none;
+    font-family: "Bungee", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+body {
+    background: linear-gradient(#E6AA45 15%, #B77DE8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: (100% - 4px);
+    height: 40px;
+    font: bold 2rem 'Bungee';
+    border-radius: 10px;
+    border-bottom: solid 1px black;
+    margin-bottom: 5px;
+}
+
+input {
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=text] {
+    width: calc(100% - 4px);
+    height: 40px;
+    opacity: 0.6;
+}
+
+input[type=button] {
+    width: 100px;
+    height: 50px;
+    margin: 2px;
+    opacity: 0.6;
+}
+
+div#calc div {
+    display: flex;
+}
+
+div#primeira input:hover {
+    background: #C943F0;
+    transition: 0.50s ease-in-out;
+}
+
+div#segunda input:hover {
+    background: #C943F0;
+    transition: 0.50s ease-in-out;
+}
+
+div#terceira input:hover {
+    background: #C943F0;
+    transition: 0.50s ease-in-out;
+}
+
+div#quarta input:hover {
+    background: #C943F0;
+    transition: 0.50s ease-in-out;
+}
+
+div#quarta input:nth-child(4) {
+    background: #E6AA45;
+    border-bottom-right-radius: 35%;
+}
+
+div#quarta input:hover:nth-child(4) {
+    background: red;
+    transition: 0.50s ease-in-out;
+}
+
+input[type=button]:active {
+    transition: scale(0.9);
+}
